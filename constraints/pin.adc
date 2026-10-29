@@ -1,0 +1,42 @@
+set_pin_assignment	{ IO_led }	{ LOCATION = T6; IOSTANDARD = SSTL15; DRIVESTRENGTH = 13; PULLTYPE = PULLUP; }
+set_pin_assignment	{ IO_sc2210_scl }	{ LOCATION = M18; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment	{ IO_sc2210_sda }	{ LOCATION = N22; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_key_in }	{ LOCATION = K4; IOSTANDARD = SSTL15; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_key_select }	{ LOCATION = P5; IOSTANDARD = SSTL15; PULLTYPE = PULLUP; }
+
+set_pin_assignment	{ I_mcu_crtl_rx }	{ LOCATION = R19; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+
+#set_pin_assignment	{ I_mcu_jtag_tck }	{ LOCATION = R18; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+#set_pin_assignment	{ I_mcu_jtag_tdi }	{ LOCATION = R19; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+#set_pin_assignment	{ I_mcu_jtag_tms }	{ LOCATION = P20; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_mcu_uart_rx }	{ LOCATION = M16; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_sys_clk_25m }	{ LOCATION = N18; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ O_hdmi_clk_p }	{ LOCATION = V17; IOSTANDARD = LVDS25; PULLTYPE = NONE; }
+set_pin_assignment	{ O_hdmi_tx_p[0] }	{ LOCATION = V13; IOSTANDARD = LVDS25; PULLTYPE = NONE; }
+set_pin_assignment	{ O_hdmi_tx_p[1] }	{ LOCATION = Y12; IOSTANDARD = LVDS25; PULLTYPE = NONE; }
+set_pin_assignment	{ O_hdmi_tx_p[2] }	{ LOCATION = T13; IOSTANDARD = LVDS25; PULLTYPE = NONE; }
+#set_pin_assignment	{ O_mcu_jtag_tdo }	{ LOCATION = P19; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ O_mcu_uart_tx }	{ LOCATION = R22; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ O_sc2210_clk_27m }	{ LOCATION = K22; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ O_sc2210_rst_n }	{ LOCATION = L21; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ fan_pwm }	{ LOCATION = D12; IOSTANDARD = LVCMOS18; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ LED_INIT }	{ LOCATION = T11; IOSTANDARD = SSTL15; DRIVESTRENGTH = 13; PULLTYPE = PULLUP; SLEWRATE = MED; }
+
+set_pin_assignment	{ sdio_clk }	{ LOCATION = P17; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ cmd_io }	{ LOCATION = P21; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment	{ data_io[0] }	{ LOCATION = P22; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment	{ data_io[1] }	{ LOCATION = P16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment	{ data_io[2] }	{ LOCATION = N17; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ data_io[3] }	{ LOCATION = R21; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+
+
+
+
+
+
+
+
+
+
+set_inst_assignment { u_mipi_dphy_rx_ph1a_mipiio_wrapper/u_ph1a_mipiio_wrapper/u_PH1_PHY_MIPIIO } { location=X5Y20Z0; }  #dphy0位置是X5Y0Z0，dphy1位置是X5Y20Z0
+

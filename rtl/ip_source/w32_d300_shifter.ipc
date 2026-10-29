@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ShiftRegisterConfig>
+    <GeneralConfig>
+        <Device>PH1A90SBG484</Device>
+        <Type>PH1_LOGIC_SHIFTER</Type>
+        <create_VHDL>true</create_VHDL>
+        <inst>w32_d300_shifter</inst>
+    </GeneralConfig>
+    <shift_data>
+        <data_depth>600</data_depth>
+        <data_width>32</data_width>
+        <ini_file/>
+        <is_mif>false</is_mif>
+        <shift_type>FIXED</shift_type>
+    </shift_data>
+    <GeneratedFiles>
+        <Verilog Enable="true">w32_d300_shifter.v</Verilog>
+        <VHDL Enable="false">w32_d300_shifter.vhd</VHDL>
+    </GeneratedFiles>
+</ShiftRegisterConfig>

@@ -1,0 +1,35 @@
+# TD / EDA generated
+*.log
+*.logw
+*.jou
+*.str
+*.pb
+*.rpt
+*.area
+*.timing
+*.power
+work_*/
+*_Runs/
+outflow/
+.DS_Store
+Thumbs.db
+
+# simulation
+*.wlf
+*.vcd
+*.fsdb
+xsim.dir/
+xvlog.*
+xelab.*
+xsim.*
+
+# editor
+*.swp
+*~
+.vscode/
+.idea/
+
+# python / matlab temp
+__pycache__/
+*.asv
+*.mex*
